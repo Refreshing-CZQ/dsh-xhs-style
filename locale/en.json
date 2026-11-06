@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Xiaohongshu Reply Style",
+    "description": "Rewrites every reply into the skeleton of a viral Xiaohongshu post: a star-rated comparison table up front, conclusion-first opening, emoji bullet points, symbol-separated sections, threshold-grouped numbered items with concrete numbers and steps, plus mandatory image-and-text (images saved locally, each one visually audited against its caption, one source link per image) and a banned-marketing-slang filter. Code, commands, paths, and formal documents are exempt."
+  }
+}
