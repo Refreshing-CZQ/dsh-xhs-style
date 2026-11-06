@@ -1,0 +1,20 @@
+{
+  "name": "dsh-xhs-style",
+  "version": "1.0.1",
+  "private": false,
+  "license": "MIT",
+  "description": "Formats every agent reply as a Xiaohongshu-style post: star-rated comparison table, conclusion-first emoji bullets, threshold-grouped numbered items with concrete numbers and steps, audited image-and-text with source links, and a banned-slang filter. Code and formal documents stay untouched.",
+  "keywords": ["dsh", "cordis", "plugin", "prompt", "xiaohongshu", "formatting", "chinese", "emoji"],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
