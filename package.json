@@ -1,11 +1,18 @@
 {
   "name": "dsh-xhs-style",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": false,
   "license": "MIT",
-  "description": "Formats every agent reply as a Xiaohongshu-style post: star-rated comparison table, conclusion-first emoji bullets, threshold-grouped numbered items with concrete numbers and steps, audited image-and-text with source links, and a banned-slang filter. Code and formal documents stay untouched.",
-  "keywords": ["dsh", "cordis", "plugin", "prompt", "xiaohongshu", "formatting", "chinese", "emoji"],
+  "description": "Adds multi-round requirements discovery before product selection and competitive analysis, then formats confirmed reports as Xiaohongshu-style posts with concrete details, audited images, source links, and a banned-slang filter.",
+  "keywords": ["dsh", "cordis", "plugin", "prompt", "xiaohongshu", "requirements-discovery", "product-selection", "formatting", "chinese", "emoji"],
   "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Refreshing-CZQ/dsh-xhs-style.git"
+  },
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",

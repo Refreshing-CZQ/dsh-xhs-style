@@ -1,4 +1,4 @@
 - insert:
     - id: xhs-style
-      name: '@local/dsh-xhs-style'
+      name: 'dsh-xhs-style'
       config: {}
